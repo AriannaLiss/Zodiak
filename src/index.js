@@ -2,7 +2,6 @@ import React from "react";
 import { createRoot } from 'react-dom/client';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Table from 'react-bootstrap/Table';
-// import ReactDOM from "react-dom";
 
 function ZodiakRow({signName, dates}){
     return (
@@ -40,4 +39,3 @@ function ZodiakTable(){
     }
 
 createRoot(document.getElementById('root')).render(<ZodiakTable/>);
-// ReactDOM.render(<ZodiakTable/>, document.querySelector('#root'))
